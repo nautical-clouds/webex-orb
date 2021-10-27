@@ -14,7 +14,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      - webex_circleci/notify:
+      - webex-orb/notify:
           N: "CircleCITest2"
           M: "Message sent from CirlceCI Webex Orb"
 
